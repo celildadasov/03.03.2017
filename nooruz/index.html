@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+function vaxt(){
+    
+     var simdi=new  Date();
+      var sonra=new  Date(2017,2,19,24,00,00)
+var s_gun=simdi.getDate()
+var s_saat=simdi.getHours();
+var s_deqiqe=simdi.getMinutes();
+var s_saniye=simdi.getSeconds();
+
+var n_gun=sonra.getDate();
+var n_saat=sonra.getHours();
+var n_deqiqe=sonra.getMinutes();
+var n_saniye=sonra.getSeconds();
+
+if(n_saat==0){
+n_saat=24;
+}
+if(n_deqiqe==0){ 
+n_deqiqe=60
+}
+if(n_saniye==0)
+n_saniye=60;
+
+
+
+var c_gun=n_gun-s_gun-1;
+var c_saat=n_saat-s_saat-1;
+var c_deqiqe=n_deqiqe-s_deqiqe-1;
+var c_saniye=n_saniye-s_saniye;
+
+
+document.write(c_gun+": "+c_saat+": "+c_deqiqe+": "+c_saniye+"<br>")
+
+ 
+   
+   
+
+
+
+    
+
+
+
+}
+setInterval("vaxt()" ,1000)
+</script>
+    
+</body>
+</html>

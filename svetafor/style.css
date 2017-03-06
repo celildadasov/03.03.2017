@@ -1,0 +1,27 @@
+.red{
+width: 100px;
+height: 80px;
+background: darkred;
+border-radius: 100%;
+
+}
+.yellow{
+
+    width: 100px;
+height: 80px;
+background: darkgoldenrod;
+border-radius: 100%;
+
+}
+.green{
+
+  width: 100px;
+height: 80px;
+background: darkgreen ;
+border-radius: 100%;
+}
+.svetafor{
+    background: black;
+    width: 100px;
+    padding: 10px;
+}
