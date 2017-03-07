@@ -1,0 +1,15 @@
+button{
+    font-size: 25px;
+    width: 100px;
+    background: lightgray;
+    color: brown;
+}
+button:hover{
+background: green;
+transition: 1s;
+
+}
+p{
+font-size: 20px;
+
+}

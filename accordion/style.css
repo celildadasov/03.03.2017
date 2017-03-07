@@ -1,0 +1,25 @@
+body {
+    background: ;
+}
+.wrapper{
+width: 960px;
+margin: 0 auto;
+}
+
+.Accordion{
+font-size: 20px;
+width: 800px;
+height: 50px;
+
+}
+div>p{
+font-size: 25px;
+font-family: cursive;
+color: green;
+}
+button{
+background: aqua;
+}
+button:hover {
+background: yellow;
+}
